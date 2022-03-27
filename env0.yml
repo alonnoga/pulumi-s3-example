@@ -5,9 +5,51 @@ deploy:
     setupVariables:
       after:
         - npm i
+        pulumiLogin:
+      before:
+        - 'echo hi'
+      after:
+        - 'echo hi'
+
+    pulumiPreview:
+      before:
+        - 'echo hi'
+      after:
+        - 'echo hi'
+
+    pulumiUp:
+      before:
+        - 'echo hi'
+      after:
+        - 'echo hi'
+
+    pulumiOutput:
+      before:
+        - 'echo hi'
+      after:
+        - 'echo hi'
+    
 
 destroy:
   steps:
     setupVariables:
       after:
         - npm i
+    pulumiLogin:
+      before:
+        - 'echo hi'
+      after:
+        - 'echo hi'
+
+    pulumiPreview:
+      before:
+        - 'echo hi'
+      after:
+        - 'echo hi'
+
+    pulumiDestroy:
+      before:
+        - 'echo hi'
+      after:
+        - 'echo hi'
+
