@@ -5,7 +5,7 @@ deploy:
     setupVariables:
       after:
         - npm i
-        pulumiLogin:
+    pulumiLogin:
       before:
         - 'echo hi'
       after:
